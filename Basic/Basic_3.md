@@ -8,7 +8,7 @@
 
 추가 할인 정책 추가
 
-[##_Image|kage@bt4KNL/btrXm7oxc5P/Jdn9fkTuW3sXdvsZqqi680/img.png|CDM|1.3|{"originWidth":614,"originHeight":281,"style":"alignCenter","filename":"스크린샷 2023-01-28 오후 3.18.47.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbt4KNL%2FbtrXm7oxc5P%2FJdn9fkTuW3sXdvsZqqi680%2Fimg.png)
 
 RateDiscountPolicy, RateDiscountPolicyTest 파일 작성
 
@@ -82,17 +82,17 @@ public class OrderServiceImpl implements OrderService{
 
 **DIP 위반** : 인터페이스뿐만 아니라 구현 클래스도 함께 의존하고 있다.
 
-[##_Image|kage@bc9RQW/btrXrNIETtB/9a21RFq4tWwGRPZxFp9tbK/img.png|CDM|1.3|{"originWidth":614,"originHeight":281,"style":"alignCenter","caption":"실제 의존 관계","filename":"스크린샷 2023-01-28 오후 4.08.17.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbc9RQW%2FbtrXrNIETtB%2F9a21RFq4tWwGRPZxFp9tbK%2Fimg.png)
 
 **OCP 위반** : 할인 정책이 변경되면 OrderServiceImpl 코드 수정이 필요하다.
 
-[##_Image|kage@b42FF1/btrXoCHSAx1/uD5DnE3ZSNiiIZLWMWuIG1/img.png|CDM|1.3|{"originWidth":621,"originHeight":329,"style":"alignCenter","filename":"스크린샷 2023-01-28 오후 4.11.53.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb42FF1%2FbtrXoCHSAx1%2FuD5DnE3ZSNiiIZLWMWuIG1%2Fimg.png)
 
 DIP, OCP 위반을 하지 않으려면, 누군가 OrderServiceImpl의 DiscountPolicy 구현 객체를 대신 주입해줘야한다.
 
 ### **3\. 관심사의 분리**
 
-[##_Image|kage@Iyu5T/btrXnHJF4lx/ZIOw017Ii7rLRQ3BApAvTk/img.png|CDM|1.3|{"originWidth":617,"originHeight":391,"style":"alignCenter","filename":"스크린샷 2023-01-28 오후 4.33.03.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FIyu5T%2FbtrXnHJF4lx%2FZIOw017Ii7rLRQ3BApAvTk%2Fimg.png)
 
 AppConfig에 MemberRepository, DiscountPolicy 구현체를 주입하는 코드 추가
 
@@ -127,7 +127,7 @@ MemberService, OrderService 선언부 코드 변경 필요
 
 ### **4\. AppConfig 리팩터링**
 
-[##_Image|kage@FmTO0/btrXmJuGo0O/Y1HKY7OE1QN1Zz7KfWd0Ck/img.png|CDM|1.3|{"originWidth":620,"originHeight":422,"style":"alignCenter","width":626,"height":426,"filename":"스크린샷 2023-01-28 오후 4.48.40.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFmTO0%2FbtrXmJuGo0O%2FY1HKY7OE1QN1Zz7KfWd0Ck%2Fimg.png)
 
 중복을 제거하고, 각 역할과 구현 클래스를 보기 좋게 리팩토링한다.
 
@@ -164,7 +164,7 @@ public class AppConfig {
 
 AppConfig를 통해 사용 영역과 구성 영역으로 구조가 분리되었다.
 
-[##_Image|kage@zr6zA/btrXrN2YRv6/6mWLrXkLuletRkWxpvzeM0/img.png|CDM|1.3|{"originWidth":614,"originHeight":409,"style":"alignCenter","filename":"스크린샷 2023-01-28 오후 4.56.21.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fzr6zA%2FbtrXrN2YRv6%2F6mWLrXkLuletRkWxpvzeM0%2Fimg.png)
 
 ### **6\. 전체 흐름 정리**
 

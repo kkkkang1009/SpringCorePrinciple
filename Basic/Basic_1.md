@@ -58,7 +58,8 @@ Ex) 운전자 - 자동차(아반떼, 소나타, 테슬라), 로미오(장동건,
 -   내부 구조를 몰라도 된다.
 -   내부 구조가 변경되도 영향 없다
 
-[##_Image|kage@dgT4dX/btrWfQgs5dd/tgYXtdkK9NjIsO0S4TGf4k/img.png|CDM|1.3|{"originWidth":484,"originHeight":253,"style":"alignLeft","width":396,"caption":"객체 인스턴스를 실행 시점에 유연하게 변경할 수 있다.","filename":"스크린샷 2023-01-15 오후 8.13.10.png"}_##][##_Image|kage@nhET8/btrWd13Rvmo/AaZKj94Sbtgzo81mbtbOhK/img.png|CDM|1.3|{"originWidth":595,"originHeight":328,"style":"alignLeft","width":394,"filename":"스크린샷 2023-01-15 오후 8.12.02.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdgT4dX%2FbtrWfQgs5dd%2FtgYXtdkK9NjIsO0S4TGf4k%2Fimg.png)
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnhET8%2FbtrWd13Rvmo%2FAaZKj94Sbtgzo81mbtbOhK%2Fimg.png)
 
 **스프링과 객체 지향**
 
@@ -80,7 +81,8 @@ DIP(Dependency Inversion Principle) 의존관계 역전 원칙 : 구현 클래�
 
 Ex)
 
-[##_Image|kage@3Ghd1/btrWc1pMCmv/7X2vvooSDgAYaSF2ZShEuk/img.png|CDM|1.3|{"originWidth":1119,"originHeight":148,"style":"alignCenter","filename":"스크린샷 2023-01-15 오후 8.34.18.png"}_##][##_Image|kage@kZh6W/btrWnoC7R4e/THvbqZyMF7DbzFLj63uUfk/img.png|CDM|1.3|{"originWidth":1131,"originHeight":206,"style":"alignCenter","filename":"스크린샷 2023-01-15 오후 8.34.37.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F3Ghd1%2FbtrWc1pMCmv%2F7X2vvooSDgAYaSF2ZShEuk%2Fimg.png)
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkZh6W%2FbtrWnoC7R4e%2FTHvbqZyMF7DbzFLj63uUfk%2Fimg.png)
 
 ### **5\. 객체 지향 설계와 스프링**
 

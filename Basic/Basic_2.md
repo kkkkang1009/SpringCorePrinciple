@@ -8,27 +8,28 @@
 
 -   [https://start.spring.io/](https://start.spring.io/) 에서 설정 후 spring boot 프로젝트 생성한다.
 
-[##_Image|kage@dnibvw/btrW38fwaLs/DSV2ZXTwPyYUU4PlLKZGEK/img.png|CDM|1.3|{"originWidth":3352,"originHeight":1800,"style":"alignCenter","width":787,"height":423,"filename":"스크린샷 2023-01-24 오후 2.03.24.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdnibvw%2FbtrW38fwaLs%2FDSV2ZXTwPyYUU4PlLKZGEK%2Fimg.png)
 
 -   만들어진 프로젝트를 압축해제 후 Intellij에서 Import하여 확인한다.
 
-[##_Image|kage@DJ2Rt/btrWSvX2EIz/BKAyXxYLdOrje2EzmdSkM0/img.png|CDM|1.3|{"originWidth":1478,"originHeight":592,"style":"alignCenter","width":758,"height":304,"caption":"생성된 프로젝트의 build.gradle","filename":"스크린샷 2023-01-24 오후 2.05.30.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDJ2Rt%2FbtrWSvX2EIz%2FBKAyXxYLdOrje2EzmdSkM0%2Fimg.png)
 
 -   src/main/java/{group}/{Artifact}/{Artifate}Application을 run하여 정상 작동 여부를 확인한다.
 
-[##_Image|kage@tvtg1/btrWU792Yzy/kBxSomg9gnyupI4Dk4vpK0/img.png|CDM|1.3|{"originWidth":887,"originHeight":341,"style":"alignCenter","width":792,"height":304,"caption":"{Artifate}Application 파일 예시","filename":"스크린샷 2023-01-24 오후 2.09.16.png"}_##][##_Image|kage@mArG4/btrWX4Sxp5S/Uv7kNfxPMkWAAmKo0EDoKk/img.png|CDM|1.3|{"originWidth":1385,"originHeight":340,"style":"alignCenter","width":725,"height":178,"filename":"스크린샷 2023-01-24 오후 2.14.12.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Ftvtg1%2FbtrWU792Yzy%2FkBxSomg9gnyupI4Dk4vpK0%2Fimg.png)
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmArG4%2FbtrWX4Sxp5S%2FUv7kNfxPMkWAAmKo0EDoKk%2Fimg.png)
 
 -   Intellij gradle 세팅 변경
 
-[##_Image|kage@bjdOr7/btrW1On4qFF/o0nToJyvvaTVLJKmIUQWzK/img.png|CDM|1.3|{"originWidth":981,"originHeight":709,"style":"alignCenter","width":765,"height":553,"filename":"스크린샷 2023-01-24 오후 2.10.39.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbjdOr7%2FbtrW1On4qFF%2Fo0nToJyvvaTVLJKmIUQWzK%2Fimg.png)
 
 ### **2\. 비즈니스 요구사항과 설계**
 
-[##_Image|kage@b9poe8/btrWUdWX55s/bUKrNpGDX8z2v2bDn0NNuK/img.png|CDM|1.3|{"originWidth":661,"originHeight":426,"style":"alignCenter","filename":"스크린샷 2023-01-24 오후 2.18.08.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb9poe8%2FbtrWUdWX55s%2FbUKrNpGDX8z2v2bDn0NNuK%2Fimg.png)
 
 ### **3\. 회원 도메인 설계**
 
-[##_Image|kage@QnNIB/btrW39yJWPL/J0qLycMku6LLmLqmEqWy61/img.png|CDM|1.3|{"originWidth":624,"originHeight":223,"style":"alignCenter","caption":"회원 클래스 다이어그램","filename":"스크린샷 2023-01-24 오후 2.20.51.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQnNIB%2FbtrW39yJWPL%2FJ0qLycMku6LLmLqmEqWy61%2Fimg.png)
 
 ### **4\. 회원 도메인 개발**
 
@@ -159,7 +160,7 @@ public class MemberApp {
 }
 ```
 
-[##_Image|kage@bKrjG6/btrWXi4xdKq/K9gkZnCM9nskqSDVsck6Nk/img.png|CDM|1.3|{"originWidth":292,"originHeight":99,"style":"alignCenter","filename":"스크린샷 2023-01-24 오후 4.38.50.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbKrjG6%2FbtrWXi4xdKq%2FK9gkZnCM9nskqSDVsck6Nk%2Fimg.png)
 
 ```
 import org.assertj.core.api.Assertions;
@@ -185,7 +186,7 @@ public class MemberServiceTest {
 
 ### **6\. 주문과 할인 도메인 설계**
 
-[##_Image|kage@tww0T/btrW4FLcK3K/gmUWvW5i5kPwrxECS9wcl1/img.png|CDM|1.3|{"originWidth":613,"originHeight":426,"style":"alignCenter","caption":"주문 클래스 다이어그램","filename":"스크린샷 2023-01-24 오후 4.50.40.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Ftww0T%2FbtrW4FLcK3K%2FgmUWvW5i5kPwrxECS9wcl1%2Fimg.png)
 
 ### **7.  주문과 할인 도메인 개발**
 
@@ -343,7 +344,7 @@ public class OrderApp {
 }
 ```
 
-[##_Image|kage@Oxw2W/btrWTKHxE3U/Y5hK82SpEzRxLRpEPilMMk/img.png|CDM|1.3|{"originWidth":1274,"originHeight":138,"style":"alignCenter","width":564,"height":61,"filename":"스크린샷 2023-01-24 오후 5.18.27.png"}_##]
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FOxw2W%2FbtrWTKHxE3U%2FY5hK82SpEzRxLRpEPilMMk%2Fimg.png)
 
 ```
 import hello.core.member.Grade;
