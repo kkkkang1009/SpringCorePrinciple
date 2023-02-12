@@ -1,3 +1,5 @@
+이전 글
+
 [\[Spring\] 스프링 핵심 원리 - 기본편 (1)](https://kkkkang1009.tistory.com/44)
 
 [\[Spring\] 스프링 핵심 원리 - 기본편 (2)](https://kkkkang1009.tistory.com/46)
@@ -263,3 +265,7 @@ public class OrderApp {
 	}
 }
 ```
+
+다음 글
+
+[\[Spring\] 스프링 핵심 원리 - 기본편 (4)](https://kkkkang1009.tistory.com/52)
