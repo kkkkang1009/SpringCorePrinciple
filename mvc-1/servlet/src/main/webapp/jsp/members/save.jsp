@@ -5,9 +5,9 @@
         // request, response 사용 가능
         MemberRepository memberRepository = MemberRepository.getInstance();
         System.out.println("save.jsp");
-        String username = request.getParameter("name");
+        String name = request.getParameter("name");
         int age = Integer.parseInt(request.getParameter("age"));
-        Member member = new Member(username, age);
+        Member member = new Member(name, age);
         System.out.println("member = " + member);
         memberRepository.save(member);
 %>
